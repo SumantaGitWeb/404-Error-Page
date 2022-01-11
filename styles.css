@@ -1,0 +1,17 @@
+._404{
+    font-family: 'Roboto Condensed', sans-serif;
+    animation: glitch 250ms alternate infinite;
+}
+
+@keyframes glitch {
+    0%{
+        text-shadow: -7px -7px 0 rgb(0, 255, 221),
+    7px 7px 0 rgb(255, 0, 0);
+    transform: translateY(10px);
+    }
+    100%{
+        text-shadow: -7px -7px 0 rgb(255, 0, 0),
+    7px 7px 0 rgb(0, 255, 221);
+    transform: translateY(-10px);
+    }
+}
